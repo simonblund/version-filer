@@ -24,7 +24,7 @@ inputs:
   filelocation:
     required: false
     description: 'File location relative to root, leave empty for root'
-    default: '/'
+    default: ''
   
   one_line_comment_sign:
     required: false
