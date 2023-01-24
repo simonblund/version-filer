@@ -31,5 +31,5 @@ inputs:
     description: 'Sign that goes before a single line comment in your programming language'
     default: '#'
 runs:
-  using: 'node18'
+  using: 'node16'
   main: 'dist/index.js'
