@@ -4,7 +4,7 @@
   "description": "Github action to writeout versions simply.",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "ncc build src/index.ts -o lib",
     "test": "jest --coverage"
   },
   "repository": {
